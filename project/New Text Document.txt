@@ -1,0 +1,10 @@
+HTML - HyperText Markup Language
+CSS - Cascading Style Sheets
+JavaScript - A programming language for web development
+HTTP - HyperText Transfer Protocol
+API - Application Programming Interface
+JSON - JavaScript Object Notation
+SQL - Structured Query Language
+DOM - Document Object Model
+AJAX - Asynchronous JavaScript and XML
+REST - Representational State Transfer

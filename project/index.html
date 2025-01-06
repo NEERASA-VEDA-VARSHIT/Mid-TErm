@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Buddy - Flashcard Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Study Buddy</h1>
+            <p>Create flashcards from your study notes</p>
+        </header>
+
+        <div class="file-input-section">
+            <input type="file" id="textFile" accept=".txt">
+            <p class="file-info">Upload a text file with terms and definitions separated by "-"</p>
+            <p class="file-format">Example: term - definition</p>
+        </div>
+
+        <div class="flashcards-container" id="flashcardsContainer"></div>
+
+        <div class="controls">
+            <button id="prevBtn" disabled>Previous</button>
+            <button id="flipBtn" disabled>Flip Card</button>
+            <button id="nextBtn" disabled>Next</button>
+        </div>
+
+        <div class="progress">
+            <span id="currentCard">0</span>/<span id="totalCards">0</span>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
